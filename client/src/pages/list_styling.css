@@ -1,0 +1,48 @@
+.Tasks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.taskInput {
+    width: 80%;
+    max-width: 480px;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 4px;
+    border-style: none
+}
+
+h2 {
+    margin: 0;
+    padding: 8px;
+    color: white;
+}
+
+.TaskButton {
+    height: 2rem;
+    width: 5rem;
+    margin: 8px;
+    border-radius: 4px;
+    border-style: none;
+    background: white;
+}
+
+.TaskButton:hover {
+    height: 2rem;
+    width: 5rem;
+    margin: 8px;
+    border-radius: 4px;
+    border-style: none;
+    background: lightgray;
+}
+
+.TaskButton:active {
+    height: 2rem;
+    width: 5rem;
+    margin: 8px;
+    border-radius: 4px;
+    border-style: none;
+    background: gray;
+}

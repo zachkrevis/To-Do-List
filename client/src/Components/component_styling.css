@@ -1,0 +1,26 @@
+.TaskRow {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background: rgb(112, 185, 168);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 16px;
+}
+
+.TaskRow button {
+    background: none;
+    border: none;
+    font-size: x-large;
+    padding-top: 8px;
+    color: black;
+}
+
+.TaskRow .trash {
+    margin-left: auto;
+    font-size: large !important;
+}
+
+.strike {
+    text-decoration: line-through;
+}
